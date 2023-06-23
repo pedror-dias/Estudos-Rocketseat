@@ -11,7 +11,7 @@ h1 {
 body {
     text-align: center;
     margin: auto;
-    width: 600px;
+    width: 550px;
 }
 
 img {
@@ -44,17 +44,21 @@ p, footer {
     margin: 32px auto 64px;
 }
 
+a + a {
+    margin-left: 42px;
+}
+
 a {
-    font-weight: bold;
     color: #3F3D56;
     text-decoration: none;
-    margin-left: 32px;
-
+    font-weight: bold;
 }
 
 #wave {
     margin-bottom: 0px;
-    width: 100%;
+    position: absolute;
+    left: 0px;
+    right: 0px;
 }
 
 .line {
