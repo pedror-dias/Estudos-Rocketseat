@@ -54,11 +54,12 @@ a {
     font-weight: bold;
 }
 
-#wave {
+#wave>img {
     margin-bottom: 0px;
     position: absolute;
     left: 0px;
     right: 0px;
+    width: 100%;
 }
 
 .line {
