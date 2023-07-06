@@ -2,6 +2,7 @@
 
 body {
     background-color: #2F2E41;
+    margin: 0;
 }
 
 #page {
@@ -10,9 +11,9 @@ body {
 }
 
 nav {
-    padding: 70px auto;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 ul {
@@ -22,6 +23,7 @@ ul {
     justify-content: space-between;
     align-items: center;
     gap: 65px;
+    padding-right: 25px;
 }
 
 ul li a {
@@ -39,9 +41,9 @@ main {
     font-family: 'Open Sans', sans-serif;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
     gap: 60px;
-    width: 1092px;
+    width: 1000px;
     height: 283px;
     margin: 100px auto 160px;
 }
@@ -63,9 +65,9 @@ h1 {
     font-family: 'JetBrains Mono', monospace;
     color: white;
     font-weight: normal;
-    font-size: 36px;
+    font-size: 32px;
     line-height: 40px;
-    margin-bottom: 60px;
+    margin: 0 auto 60px;
 }
 
 span {
