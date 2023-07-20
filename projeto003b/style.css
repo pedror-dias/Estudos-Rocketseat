@@ -1,0 +1,158 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #E5E5E5;
+}
+
+body, input, select, textarea {
+    font-family: 'Poppins', sans-serif;;
+}
+
+body::before {
+    content: '';
+    width: 100%;
+    height: 436px;
+    background: #535971;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.page {
+    width: 750px;
+    margin: auto;
+}
+
+header {
+    color: white;
+    margin-top: 140px;
+    width: 350px;
+}
+
+header h1 {
+    font-family: 'Staatliches', cursive;
+    font-size: 48px;
+    margin-bottom: 18px;
+}
+
+header p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+}
+
+form {
+    margin-top: 60px;
+    padding: 64px;
+    background: white;
+    border-radius: 20px 20px 0 0;
+    height: 1065px;
+}
+
+form fieldset {
+    border: none;
+    padding-bottom: 30px;
+}
+
+.fieldset-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+fieldset legend {
+    font-family: 'Staatliches', cursive;
+    color: #535971;
+    font-size: 24px;
+    line-height: 34px;
+    border-bottom: 1px solid #E6E6F0;
+    padding-bottom: 16px;
+}
+
+.legend-1 {
+    padding-bottom: 16px;
+}
+
+.input-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-wrapper label {
+    font-family: 'Poppins', sans-serif;
+    color: #4E4958;
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 8px;
+}
+
+.input-wrapper label span {
+    font-size: 12px;
+    line-height: 20px;
+    color: #C1BCCC;
+    margin-left: 9px;
+}
+
+.input-wrapper input {
+    height: 56px;
+    border-radius: 8px;
+    border: 1px solid #E6E6F0;
+    padding: 0 24px;
+    background: #FAFAFC;
+    color: #b1adbb;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.side {
+    display: flex;
+    gap: 20px;
+}
+
+.side .input-wrapper input {
+    width: 300px;
+}
+
+h2 {
+    font-family: 'Staatliches', cursive;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 34px;
+    color: #535971;
+}
+
+.mentorship-dates {
+    display: flex;
+    gap: 32px;
+}
+
+.mentorship-dates > div:nth-child(1) {
+    width: 100%;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    height: 160px;
+    background: #535971;
+    border-radius: 0 0 20px 20px;
+    margin-bottom: 140px;
+    padding: 50px 70px;
+}
+
+footer .button {
+    font-family: 'Staatliches', cursive;
+    color: white;
+    font-size: 20px;
+    line-height: 26px;
+    background: #FF5374;
+    border: none;
+    border-radius: 20px;
+    height: 55px;
+}
