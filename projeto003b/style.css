@@ -99,6 +99,10 @@ fieldset legend {
     margin-left: 9px;
 }
 
+.input-wrapper label span:hover {
+    color: #86848d;
+}
+
 .input-wrapper input {
     height: 56px;
     border-radius: 8px;
@@ -156,3 +160,7 @@ footer .button {
     border-radius: 20px;
     height: 55px;
 }
+
+footer .button:hover {
+    background:#cc435e;
+    }
