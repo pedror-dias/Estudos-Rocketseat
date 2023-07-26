@@ -133,11 +133,20 @@ h2 {
 
 .mentorship-dates {
     display: flex;
-    gap: 32px;
 }
 
-.mentorship-dates > div:nth-child(1) {
-    width: 100%;
+#mentor-date1, #mentor-date2 {
+    width: 300px;
+    margin-right: 32px;
+}
+
+#mentor-begin1, #mentor-begin2 {
+    width: 140px;
+    margin-right: 10px;
+}
+
+#mentor-finish1, #mentor-finish2 {
+    width: 140px;
 }
 
 footer {
